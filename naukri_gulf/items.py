@@ -1,5 +1,8 @@
 import scrapy
 
 class Product(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
+    search_term = scrapy.Field()
+    passport_no = scrapy.Field()
+    data = scrapy.Field()
+    input_data = scrapy.Field()
+    scrape_date = scrapy.Field()
