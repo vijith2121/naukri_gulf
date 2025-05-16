@@ -171,4 +171,4 @@ class Naukri_gulfSpider(scrapy.Spider):
                     'scrape_date': str(scrape_date)
                 }
                 yield Product(**items)
-                return
+                # return
