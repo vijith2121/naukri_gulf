@@ -14,7 +14,7 @@ class Naukri_gulfSpider(scrapy.Spider):
         script_directory = os.path.dirname(os.path.abspath(__file__))
 
         # Find the CSV file that ends with 'ENBD-TRACING_1.csv'
-        csv_files = [f for f in os.listdir(script_directory) if f.endswith('ENBD-TRACING_5_part_1.csv')]
+        csv_files = [f for f in os.listdir(script_directory) if f.endswith('ENBD-TRACING_5_part_2.csv')]
         
         if not csv_files:
             print("No matching CSV file found.")
